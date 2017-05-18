@@ -11,7 +11,8 @@ html(lang=config.language)
                     a(href=url_for(), title=config.title)
                         if theme.logo
                             img.logo-image(src=url_for(theme.logo), alt='logo')
-                        = config.title
+                        else
+                            = config.title
                 include nav.pug
             main.container
                 block container
