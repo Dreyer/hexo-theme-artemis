@@ -2,7 +2,7 @@
 
 A minimalist theme for [Hexo](http://hexo.io/) based on the [Apollo](https://github.com/pinggod/hexo-theme-apollo) theme.
 
-The original theme didn't appear to work anymore with the latest version of Hexo renderer libraries since [Jade](https://jade-lang.com) is now [Pug](https://pugjs.org).
+The original Apollo theme didn't appear to work with the latest version of Hexo renderer libraries since [Jade](https://jade-lang.com) is now [Pug](https://pugjs.org).
 
 ## Installation
 
@@ -29,7 +29,7 @@ git pull
 Test with the latest versions of the following:
 
 | Library | Min. Version |
-| --- | --- | --- |
+| --- | --- |
 | [Hexo](https://hexo.io/) | 3.3.x |
 | [Grunt](https://gruntjs.com/) | 1.0.x |
 | [Sass](http://sass-lang.com/) | 3.4.x |
