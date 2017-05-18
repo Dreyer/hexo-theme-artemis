@@ -17,7 +17,21 @@ git clone https://github.com/Dreyer/hexo-theme-artemis.git themes/artemis
 
 ### Enable
 
-Modify `theme` setting in `_config.yml` to `artemis`.
+Modify `theme` setting in `_config.yml` to `artemis`. 
+
+You can override the theme options using `theme_config` in the main `_config.yml`:
+
+```yaml
+theme: artemis
+theme_config:
+  logo:
+  google_analytics: UA-12345678-9
+  menu:
+    Home: /
+    About: /about
+    GitHub: https://github.com/Dreyer
+    RSS: /atom.xml
+```
 
 ### Update
 

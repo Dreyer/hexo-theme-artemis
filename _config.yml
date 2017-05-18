@@ -2,10 +2,10 @@ name: Artemis
 url: https://github.com/Dreyer/hexo-theme-artemis
 
 menu:
-    Home: /
-    Archives: /archives
-    GitHub: https://github.com/Dreyer
-    RSS: /atom.xml
+  Home: /
+  Archives: /archives
+  GitHub: https://github.com/Dreyer
+  RSS: /atom.xml
 
 favicon: /favicon.png
 logo: /logo.png
@@ -17,7 +17,7 @@ duoshuo:
 cloudTie:
 
 # Analytics
-google_analytics: UA-65933410-1
+google_analytics:
 
 # Copyright Infomation
 since: 2008
