@@ -1,5 +1,5 @@
 .copyright
     - var currentDate = new Date();
     - var year = currentDate.getFullYear();
-    - year = year == theme.since ? year : theme.since + ' - ' + year;
-    p &copy; #{year} #[a(href=config.url) != config.author], powered by #[a(href='https://hexo.io/', target='_blank') Hexo] and #[a(href=theme.url, target='_blank') #{theme.name}].
+    - year = ! theme.since || year == theme.since ? year : theme.since + ' - ' + year;
+    p &copy; #{year} #[a(href=config.url) #{config.author}], powered by #[a(href='https://hexo.io/', target='_blank') Hexo] and #[a(href=theme.url, target='_blank') #{theme.name}].
