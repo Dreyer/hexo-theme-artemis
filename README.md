@@ -17,7 +17,7 @@ git clone https://github.com/Dreyer/hexo-theme-artemis.git themes/artemis
 
 ### Enable
 
-Modify `theme` setting in `_config.yml` to `artemis`. 
+Modify `theme` setting in `_config.yml` to `artemis`.
 
 You can override the theme options using `theme_config` in the main `_config.yml`:
 
@@ -26,6 +26,10 @@ theme: artemis
 theme_config:
   logo:
   google_analytics: UA-12345678-9
+  copyright:
+    since: 2016
+    name: John Doe
+    url: https://www.example.org/john-doe
   menu:
     Home: /
     About: /about
@@ -57,7 +61,7 @@ Test with the latest versions of the following:
 
 This theme is largely based on the efforts of [Sean Sun](https://github.com/pinggod).
 
-According to classical Greek mythology, [Artemis](https://en.wikipedia.org/wiki/Artemis) is the twin sister of Apollo and as this theme is virtually identical to [hexo-theme-apollo](https://github.com/pinggod/hexo-theme-apollo), it seemed apt. 
+According to classical Greek mythology, [Artemis](https://en.wikipedia.org/wiki/Artemis) is the twin sister of Apollo and as this theme is virtually identical to [hexo-theme-apollo](https://github.com/pinggod/hexo-theme-apollo), it seemed apt.
 
 Icons are from [IconNinja](http://www.iconninja.com/fairy-tales-icon-sets-16414).
 
