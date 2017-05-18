@@ -1,0 +1,37 @@
+header {
+    min-height: 60px;
+
+    .logo-link {
+        float: left;
+    }
+
+    .branding {
+        display: inline-block;
+        margin: 10px 0 0 0;
+        position: relative;
+
+        .logo-image {
+            position: absolute;
+            left: -60px;
+            bottom: 10px;
+        }
+    }
+
+    .nav {
+        float: right;
+        left: 80px;
+    }
+
+    .logo-image {
+        width: 60px;
+    }
+
+    .nav-list-item {
+        display: inline-block;
+        padding: 19px  10px ;
+        a {
+            font-size: 16px;
+            line-height: 1.4;
+        }
+    }
+}

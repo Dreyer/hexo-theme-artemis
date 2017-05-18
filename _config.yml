@@ -1,0 +1,23 @@
+name: Artemis
+url: https://github.com/Dreyer/hexo-theme-artemis
+
+menu:
+    Home: /
+    Archives: /archives
+    GitHub: https://github.com/Dreyer
+    RSS: /atom.xml
+
+favicon: /favicon.png
+logo:
+
+# Comment
+# e.g disqus: seansun
+disqus:
+duoshuo:
+cloudTie:
+
+# Analytics
+google_analytics: UA-65933410-1
+
+# Copyright Infomation
+since: 2008
