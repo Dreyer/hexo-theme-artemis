@@ -1,8 +1,9 @@
 mixin postInfo(item)
     .post-info
-        != full_date(item.date, 'll')
+        a
+        != full_date(item.date, 'YYYY-MM-DD')
         if item.from && (is_home() || is_post())
-            a.post-from(href=item.from target='_blank' title=item.from)
+            a.post-from(href=item.from, target='_blank', title=item.from)
                 != __('translate_original')
 
 mixin postTitle(title)

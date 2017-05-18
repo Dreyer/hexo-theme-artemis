@@ -8,9 +8,9 @@ html(lang=config.language)
                 //- a.logo-link(href=url_for() title=config.title)
                     img.logo-image(src=url_for(theme.logo) alt='logo')
                 h1.branding
-                    a(href=url_for() title=config.title)
+                    a(href=url_for(), title=config.title)
                         if theme.logo
-                            img.logo-image(src=url_for(theme.logo) alt='logo')
+                            img.logo-image(src=url_for(theme.logo), alt='logo')
                         = config.title
                 include nav.pug
             main.container
