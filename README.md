@@ -4,7 +4,7 @@ A minimalist theme for [Hexo](http://hexo.io/) based on the [Apollo](https://git
 
 The original Apollo theme didn't appear to work with the latest version of Hexo renderer libraries since [Jade](https://jade-lang.com) is now [Pug](https://pugjs.org).
 
-[Screenshot](https://i.imgur.com/PCVquML.png)
+[Preview](http://hexo-theme-artemis.smplcty.com/) |  [Screenshot](https://i.imgur.com/PCVquML.png)
 
 ## Installation
 
