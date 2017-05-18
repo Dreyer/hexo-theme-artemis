@@ -1,5 +1,14 @@
 //- LaTex
-script(async, src='//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML', integrity='sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW', crossorigin='anonymous')
+//- script(async, src='//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML', integrity='sha384-Ra6zh6uYMmH5ydwCqqMoykyf1T/+ZcnOQfFPhDrp2kI4OIxadnhsvvA2vv9A7xYv', crossorigin='anonymous')
+script(async, src='//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default', integrity='sha384-Ra6zh6uYMmH5ydwCqqMoykyf1T/+ZcnOQfFPhDrp2kI4OIxadnhsvvA2vv9A7xYv', crossorigin='anonymous')
+script.
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [['$','$'],['\\(','\\)']],
+            processClass: "mathjax",
+            ignoreClass: "no-mathjax"
+        }
+    });
 
 //- Analytics tracking
 if theme.google_analytics
