@@ -2,4 +2,6 @@ prev: prev
 next: next
 prev_post: prev
 next_post: next
-more: '&hellip; more'
+read_more: '&hellip; more'
+untitled: (untitled)
+translate_original: Translate the original address

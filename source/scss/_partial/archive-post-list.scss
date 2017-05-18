@@ -4,6 +4,7 @@
 
     .post-item {
         padding: 2px 0 0 50px;
+        overflow: hidden;
     }
 
     .post-time,
@@ -15,7 +16,7 @@
         display: block;
         margin-left: 125px;
         color: #42b983;
-        word-break: break-all;
+        word-wrap: break-word;
         &:hover {
             border-bottom: 0;
             color: #267B54;
