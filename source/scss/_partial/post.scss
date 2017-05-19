@@ -45,13 +45,11 @@
             content: "";
         }
     }
-
     h2, h3 {
-        font-size: 22px;
+        font-size: 1.4em;
     }
-
     h4, h5, h6 {
-        font-size: 18px;
+        font-size: 1.3em;
     }
     a {
         color: #42b983;
@@ -67,7 +65,6 @@
         max-width: 100%;
         margin: 1em auto;
     }
-    & > table,
     & > figure.highlight {
         box-shadow: 0 1px 2px rgba(0,0,0,0.125);
     }
@@ -170,7 +167,7 @@ pre {
     }
 }
 
-$signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json", "swift", "ruby", "perl", "php", "c", "java", "cpp", "ts");
+$signs: ("ini", "conf", "html", "javascript", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json", "swift", "ruby", "perl", "php", "c", "java", "cpp", "ts");
 @include code-signs($signs);
 
 .highlight.cpp .code:after {
@@ -179,85 +176,75 @@ $signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "j
 
 pre {
     color: #525252;
-    .function .keyword,
-    .constant {
-       color: #0092db;
+
+    .comment,
+    .quote {
+        color: #998;
+        font-style: italic
     }
     .keyword,
-    .attribute {
-        color: #e96900;
+    .selector-tag,
+    .subst {
+        color: #333;
+        font-weight: bold
     }
     .number,
-    .literal {
-        color: #ae81ff;
+    .literal,
+    .variable,
+    .template-variable,
+    .tag .attr {
+        color: #008080
+    }
+    .string,
+    .doctag {
+        color: #d14
+    }
+    .title,
+    .section,
+    .selector-id {
+        color: #900;
+        font-weight: bold
+    }
+    .subst {
+        font-weight: normal
+    }
+    .type,
+    .class .title {
+        color: #458;
+        font-weight: bold
     }
     .tag,
-    .tag .title,
-    .change,
-    .winutils,
-    .flow,
-    .lisp .title,
-    .clojure .built_in,
-    .nginx .title,
-    .tex .special {
-        color: #2973b7;
+    .name,
+    .attribute {
+        color: #000080;
+        font-weight: normal
+    }
+    .regexp,
+    .link {
+        color: #009926
     }
     .symbol,
-    .symbol .string,
-    .value,
-    .regexp {
-        color: #42b983;
+    .bullet {
+        color: #990073
     }
-    .title {
-        color: #83B917;
-    }
-    .tag .value,
-    .string,
-    .subst,
-    .haskell .type,
-    .preprocessor,
-    .ruby .class .parent,
     .built_in,
-    .sql .aggregate,
-    .django .template_tag,
-    .django .variable,
-    .smalltalk .class,
-    .javadoc,
-    .django .filter .argument,
-    .smalltalk .localvars,
-    .smalltalk .array,
-    .attr_selector,
-    .pseudo,
-    .addition,
-    .stream,
-    .envvar,
-    .apache .tag,
-    .apache .cbracket,
-    .tex .command,
-    .prompt {
-        color: #42b983;
+    .builtin-name {
+        color: #0086b3
     }
-    .comment,
-    .java .annotation,
-    .python .decorator,
-    .template_comment,
-    .pi,
-    .doctype,
-    .shebang,
-    .apache .sqbracket,
-    .tex .formula {
-        color: #b3b3b3;
+    .meta {
+        color: #999;
+        font-weight: bold
     }
     .deletion {
-        color: #BA4545;
+        background: #fdd
     }
-    .coffeescript .javascript,
-    .javascript .xml,
-    .tex .formula,
-    .xml .javascript,
-    .xml .vbscript,
-    .xml .css,
-    .xml .cdata {
-        opacity: 0.5;
+    .addition {
+        background: #dfd
+    }
+    .emphasis {
+        font-style: italic
+    }
+    .strong {
+        font-weight: bold
     }
 }

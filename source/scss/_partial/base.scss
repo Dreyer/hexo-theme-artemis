@@ -55,22 +55,38 @@ iframe, video {
 }
 
 table {
-    width: 100%;
-    margin: 1em auto;
+    padding: 0;
+    th {
+        font-weight: bold;
+        border: 1px solid #c6cbd1;
+        text-align: left;
+        margin: 0;
+        padding: 6px 13px;
+    }
     thead {
-        background-color: #ddd;
-        th {
-            padding: 5px;
-            min-width: 20px;
-        }
+        background-color: #fff;
     }
     tbody {
+        tr {
+            border-top: 1px solid #c6cbd1;
+            background-color: white;
+        }
         tr:nth-child(2n) {
-            background-color: #eee;
+            background-color: #f6f8fa;
         }
         td {
-            padding: 5px;
-            vertical-align: text-top;
+            border: 1px solid #dfe2e5;
+            text-align: left;
+            margin: 0;
+            padding: 6px 13px;
+        }
+        th :first-child,
+        td :first-child {
+            margin-top: 0;
+        }
+        th :last-child,
+        td :last-child {
+            margin-bottom: 0;
         }
     }
 }
