@@ -57,8 +57,15 @@
     }
     blockquote {
         margin: 2em 0;
-        padding-left: 20px;
-        border-left: 4px solid #42b983;
+        padding: 0.5em 1.3em;
+        border: 1px solid #eee;
+        border-radius: 3px;
+        border-left-color: #42b983;
+        border-left-width: 4px;
+    }
+    blockquote.warning {
+        border-left-color: #f0ad4e;
+        border-left-width: 4px;
     }
     img {
         display: block;

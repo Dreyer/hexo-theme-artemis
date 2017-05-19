@@ -15,6 +15,7 @@ logo: /logo.png
 disqus:
 
 # Analytics
+mathjax: false
 google_analytics:
 
 # Copyright Infomation
